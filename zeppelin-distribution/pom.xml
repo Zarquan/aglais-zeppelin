@@ -23,7 +23,7 @@
   <parent>
     <artifactId>zeppelin</artifactId>
     <groupId>org.apache.zeppelin</groupId>
-    <version>0.9.0-SNAPSHOT</version>
+    <version project="zeppelin">0.9.0-aglais-0.0.1</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
