@@ -425,6 +425,15 @@ public class Paragraph extends JobWithProgressPoller<InterpreterResult> implemen
         }
       }
 
+      LOGGER.info(
+        "ZRQ test [paragraph: {}, interpreter: {}, note_id: {}, user: {}, subject: {}]",
+        this.getId(),
+        this.interpreter.getClassName(),
+        this.note.getId(),
+        this.user,
+        this.subject.getUser()
+        );
+
       for (Paragraph p : userParagraphMap.values()) {
         p.setText(getText());
       }
