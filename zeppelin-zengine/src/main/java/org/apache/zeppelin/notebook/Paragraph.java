@@ -47,6 +47,7 @@ import org.apache.zeppelin.interpreter.InterpreterException;
 import org.apache.zeppelin.interpreter.InterpreterNotFoundException;
 import org.apache.zeppelin.interpreter.InterpreterResult;
 import org.apache.zeppelin.interpreter.InterpreterResult.Code;
+import org.apache.zeppelin.interpreter.InterpreterResult.Type;
 import org.apache.zeppelin.interpreter.InterpreterResultMessage;
 import org.apache.zeppelin.interpreter.InterpreterSetting;
 import org.apache.zeppelin.interpreter.ManagedInterpreterGroup;
@@ -433,6 +434,20 @@ public class Paragraph extends JobWithProgressPoller<InterpreterResult> implemen
         this.user,
         this.subject.getUser()
         );
+
+      if ("user2".equals(this.user)) {
+        String message = String.format(
+            "User '%s' does not have the resources to run '%s'",
+            this.user,
+            this.interpreter.getClassName()
+            );
+        LOGGER.error(message);
+        return new InterpreterResult(
+            Code.INCOMPLETE,
+            Type.HTML,
+            message
+            );
+      }
 
       for (Paragraph p : userParagraphMap.values()) {
         p.setText(getText());
