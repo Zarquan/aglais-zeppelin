@@ -425,7 +425,7 @@ public class Paragraph extends JobWithProgressPoller<InterpreterResult> implemen
           return new InterpreterResult(Code.ERROR, msg);
         }
       }
-
+//ZRQ
       LOGGER.info(
         "ZRQ test [paragraph: {}, interpreter: {}, note_id: {}, user: {}, subject: {}]",
         this.getId(),
@@ -442,10 +442,17 @@ public class Paragraph extends JobWithProgressPoller<InterpreterResult> implemen
             this.interpreter.getClassName()
             );
         LOGGER.error(message);
+        String html = String.format(
+"<div class=\"alert alert-danger\" role=\"alert\">" +
+"You don't have enough resources to run this step." +
+"<br/>" +
+"Please goto the <a href=\"'\" class=\"alert-link\">booking page</a> to reserve the resources you need." +
+"</div>"
+            );
         return new InterpreterResult(
             Code.INCOMPLETE,
-            Type.HTML,
-            message
+            Type.ANGULAR,
+            html
             );
       }
 
