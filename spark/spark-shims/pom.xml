@@ -22,14 +22,14 @@
   <parent>
     <artifactId>spark-parent</artifactId>
     <groupId>org.apache.zeppelin</groupId>
-    <version project='aglais-spark'>aglais-20210114</version>
+    <version project='aglais-zeppelin'>aglais-zeppelin-20210114</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.apache.zeppelin</groupId>
   <artifactId>spark-shims</artifactId>
-  <version project='aglais-spark'>aglais-20210114</version>
+  <version project='aglais-zeppelin'>aglais-zeppelin-20210114</version>
   <packaging>jar</packaging>
   <name>Zeppelin: Spark Shims</name>
 

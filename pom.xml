@@ -24,7 +24,7 @@
   <groupId>org.apache.zeppelin</groupId>
   <artifactId>zeppelin</artifactId>
   <packaging>pom</packaging>
-  <version project='aglais-spark'>aglais-20210114</version>
+  <version project='aglais-zeppelin'>aglais-zeppelin-20210114</version>
   <name>Zeppelin</name>
   <description>Zeppelin project</description>
   <url>https://zeppelin.apache.org</url>

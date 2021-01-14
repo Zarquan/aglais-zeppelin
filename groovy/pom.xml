@@ -23,14 +23,14 @@
   <parent>
     <artifactId>zeppelin-interpreter-parent</artifactId>
     <groupId>org.apache.zeppelin</groupId>
-    <version project='aglais-spark'>aglais-20210114</version>
+    <version project='aglais-zeppelin'>aglais-zeppelin-20210114</version>
     <relativePath>../zeppelin-interpreter-parent/pom.xml</relativePath>
   </parent>
 
   <groupId>org.apache.zeppelin</groupId>
   <artifactId>zeppelin-groovy</artifactId>
   <packaging>jar</packaging>
-  <version project='aglais-spark'>aglais-20210114</version>
+  <version project='aglais-zeppelin'>aglais-zeppelin-20210114</version>
   <name>Zeppelin: Groovy interpreter</name>
 
   <properties>

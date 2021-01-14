@@ -25,14 +25,14 @@
   <parent>
     <artifactId>zengine-plugins-parent</artifactId>
     <groupId>org.apache.zeppelin</groupId>
-    <version project='aglais-spark'>aglais-20210114</version>
+    <version project='aglais-zeppelin'>aglais-zeppelin-20210114</version>
     <relativePath>../../../zeppelin-plugins</relativePath>
   </parent>
 
   <groupId>org.apache.zeppelin</groupId>
   <artifactId>launcher-docker</artifactId>
   <packaging>jar</packaging>
-  <version project='aglais-spark'>aglais-20210114</version>
+  <version project='aglais-zeppelin'>aglais-zeppelin-20210114</version>
   <name>Zeppelin: Plugin Docker Launcher</name>
   <description>Launcher implementation to run interpreters on docker</description>
 

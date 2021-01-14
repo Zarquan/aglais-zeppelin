@@ -23,13 +23,13 @@
     <parent>
         <artifactId>zeppelin-interpreter-parent</artifactId>
         <groupId>org.apache.zeppelin</groupId>
-        <version project='aglais-spark'>aglais-20210114</version>
+        <version project='aglais-zeppelin'>aglais-zeppelin-20210114</version>
         <relativePath>../zeppelin-interpreter-parent/pom.xml</relativePath>
     </parent>
 
     <artifactId>zeppelin-influxdb</artifactId>
     <packaging>jar</packaging>
-    <version project='aglais-spark'>aglais-20210114</version>
+    <version project='aglais-zeppelin'>aglais-zeppelin-20210114</version>
     <name>Zeppelin: InfluxDB interpreter</name>
     <description>InfluxDB 2.0 timeseries database support</description>
 

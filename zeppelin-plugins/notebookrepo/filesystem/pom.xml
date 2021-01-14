@@ -24,14 +24,14 @@
     <parent>
         <artifactId>zengine-plugins-parent</artifactId>
         <groupId>org.apache.zeppelin</groupId>
-        <version project='aglais-spark'>aglais-20210114</version>
+        <version project='aglais-zeppelin'>aglais-zeppelin-20210114</version>
         <relativePath>../../../zeppelin-plugins</relativePath>
     </parent>
 
     <groupId>org.apache.zeppelin</groupId>
     <artifactId>notebookrepo-filesystem</artifactId>
     <packaging>jar</packaging>
-    <version project='aglais-spark'>aglais-20210114</version>
+    <version project='aglais-zeppelin'>aglais-zeppelin-20210114</version>
     <name>Zeppelin: Plugin FileSystemNotebookRepo</name>
     <description>NotebookRepo implementation based on Hadoop FileSystem</description>
 

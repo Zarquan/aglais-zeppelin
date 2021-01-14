@@ -23,14 +23,14 @@
   <parent>
     <artifactId>zeppelin</artifactId>
     <groupId>org.apache.zeppelin</groupId>
-    <version project='aglais-spark'>aglais-20210114</version>
+    <version project='aglais-zeppelin'>aglais-zeppelin-20210114</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
   <groupId>org.apache.zeppelin</groupId>
   <artifactId>zeppelin-jupyter-interpreter-shaded</artifactId>
   <packaging>jar</packaging>
-  <version project='aglais-spark'>aglais-20210114</version>
+  <version project='aglais-zeppelin'>aglais-zeppelin-20210114</version>
   <name>Zeppelin: Jupyter Interpreter Shaded</name>
 
   <dependencies>

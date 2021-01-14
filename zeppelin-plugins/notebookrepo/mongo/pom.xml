@@ -25,13 +25,13 @@
     <parent>
         <groupId>org.apache.zeppelin</groupId>
         <artifactId>zengine-plugins-parent</artifactId>
-        <version project='aglais-spark'>aglais-20210114</version>
+        <version project='aglais-zeppelin'>aglais-zeppelin-20210114</version>
         <relativePath>../../../zeppelin-plugins</relativePath>
     </parent>
 
     <artifactId>notebookrepo-mongo</artifactId>
     <packaging>jar</packaging>
-    <version project='aglais-spark'>aglais-20210114</version>
+    <version project='aglais-zeppelin'>aglais-zeppelin-20210114</version>
 
     <name>Zeppelin: Plugin MongoNotebookRepo</name>
     <description>NotebookRepo implementation based on MongoDB</description>

@@ -24,14 +24,14 @@
     <parent>
         <artifactId>zeppelin</artifactId>
         <groupId>org.apache.zeppelin</groupId>
-        <version project='aglais-spark'>aglais-20210114</version>
+        <version project='aglais-zeppelin'>aglais-zeppelin-20210114</version>
         <relativePath>..</relativePath>
     </parent>
 
     <groupId>org.apache.zeppelin</groupId>
     <artifactId>zengine-plugins-parent</artifactId>
     <packaging>pom</packaging>
-    <version project='aglais-spark'>aglais-20210114</version>
+    <version project='aglais-zeppelin'>aglais-zeppelin-20210114</version>
     <name>Zeppelin: Plugins Parent</name>
     <description>Zeppelin Plugins Parent</description>
     <properties>
