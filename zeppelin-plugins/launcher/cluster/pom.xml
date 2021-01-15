@@ -39,12 +39,12 @@
   <properties>
     <plugin.name>Launcher/ClusterInterpreterLauncher</plugin.name>
   </properties>
-  
+
   <dependencies>
     <dependency>
       <groupId>org.apache.zeppelin</groupId>
       <artifactId>launcher-docker</artifactId>
-      <version>aglais-20210114</version>
+      <version>${project.version}</version>
     </dependency>
   </dependencies>
 
